@@ -28,5 +28,4 @@ public class Pascal_Triangle {
         }
         return result;
     }
-
 }

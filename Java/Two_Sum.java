@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Two_Sum {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4, 5};
+        int[] nums = {3,2,4};
         System.out.println(Arrays.toString(twoSum(nums, 6)));
     }
 
@@ -35,3 +35,19 @@ public class Two_Sum {
     }
      */
 
+    /* //if the array is sorted
+    public static int[] twoSum(int[] nums, int target) {
+        Arrays.sort(nums);
+        int left = 0, right = nums.length - 1;
+        while (left < right) {
+            if (target < nums[left] + nums[right]) {
+                right--;
+            } else if
+            (target > nums[left] + nums[right])
+                left++;
+            else
+                return new int[]{left, right};
+        }
+        return null;
+    } */
+}
