@@ -10,7 +10,6 @@ public class Pascal_Triangle {
             System.out.println(row);
         }
     }
-
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         List<Integer> row, previous = null;
